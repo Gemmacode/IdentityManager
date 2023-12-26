@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using IdentityManager.Domain.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,5 +15,6 @@ namespace IdentityManager.Data.Context
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
+        public DbSet<ApplicationUser>ApplicationUser { get; set; }
     }
 }
