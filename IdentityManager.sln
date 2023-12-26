@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityManager.Api", "Iden
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityManager.Data", "IdentityManager.Data\IdentityManager.Data.csproj", "{2D257C0D-B1F3-43DC-A8F7-E14BD5167AE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityManager.Domain", "IdentityManager.Domain\IdentityManager.Domain.csproj", "{6D2B93C7-B6FE-4898-983D-C676FF5588E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2D257C0D-B1F3-43DC-A8F7-E14BD5167AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D257C0D-B1F3-43DC-A8F7-E14BD5167AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D257C0D-B1F3-43DC-A8F7-E14BD5167AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2B93C7-B6FE-4898-983D-C676FF5588E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2B93C7-B6FE-4898-983D-C676FF5588E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2B93C7-B6FE-4898-983D-C676FF5588E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2B93C7-B6FE-4898-983D-C676FF5588E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
